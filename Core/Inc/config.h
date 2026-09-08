@@ -6,7 +6,7 @@
 // speed limits for invividual modes in kph
 #define SPEEDLIMIT_ECO 12
 #define SPEEDLIMIT_NORMAL 20
-#define SPEEDLIMIT_SPORT 50
+#define SPEEDLIMIT_SPORT 40
 
 // motor current limits for invividual modes in mA
 // note that hacked firmware allows up to 55amps motor phase current
@@ -15,10 +15,10 @@
 #define PH_CURRENT_MAX_SPORT 25000
 
 // motor current limit for regen in mA
-#define REGEN_MAX_CURRENT 10000
+#define REGEN_MAX_CURRENT 4500
 
 // maximum current for field weakening in mA
-#define FIELD_WEAKNING_CURRENT_MAX 0 //max id
+#define FIELD_WEAKNING_CURRENT_MAX 1000 //max id
 
 // ADC channels
 #define ADC_VOLTAGE 0
